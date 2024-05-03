@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/style.css">
+    <link rel="stylesheet" href="../public/mystyle.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <div class="hidden w-full md:flex  navtop bg-gray-800 text-gray-200 h-10" >
+            <div class=" w-auto  flex items-center me-auto font-thin gap-2 mx-auto">
+                <i class="fa-solid fa-envelope"></i>
+                <p><a href="">mail@domail.com</a></p>
+    
+                <i class="fa-solid fa-phone"></i>
+                <p><a href="">010-020-0210</a></p>
+            </div>
+            <div class="flex items-center font-thin gap-2 mx-auto">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <nav class="bg-white border-gray-200">
+            <div class="container max-w-screen-xl flex flex-wrap justify-between lg:gap-32 md:gap-0 items-center p-4 shadow-xl md:pr-24 md:pl-28">
+                <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <span class="self-center text-6xl lg:mr-10 md:mr-0 font-semibold whitespace-nowrap dark:text-green-500">ZAY</span>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center mt-2 p-1 w-10 h-10 justify-center ms-auto text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="font-thin flex items-center flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
+                        <li>
+                            <a href="#" class="block py-2 px-3" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 ">About</a>
+                        </li>
+                        <li>
+                            <a href="shop.html" class="block py-2 px-3 ">Shop</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="block py-2 px-3 ">Contact</a>
+                        </li>        
+                    </ul>
+                </div>
+                <div class="hidden md:block lg:flex lg:text-2xl gap-4 ms-auto">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Contact Us -->
+    <div class= "w-full font-thin text-wrap flex justify-center bg-neutral-200">
+        <div class="w-full px-2 md:px-0 md:w-3/5 flex-row text-center py-16 ">
+            <h2 class="font-light text-xl md:text-5xl">Contact Us</h2>
+            <p class="py-3">Proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <!-- User Form -->
+    <div class="w-full py-20 flex justify-center">
+        <form action="" class="w-2/3">
+            <div class="grid-cols-2 w-full flex">
+                <div class="sm:col-span-2 md:col-span-1 w-1/2 pr-2">
+                    <h3>Name</h3>                     
+                    <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Name">
+                </div>
+                <div class="sm:col-span-2 md:col-span-1 w-1/2 pl-2">
+                    <h3>Email</h3>
+                    <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Email">
+                </div>                
+            </div>
+            <div class="py-2">
+                <h3>Subject</h3>
+                <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Subject">
+            </div>
+            <div class="py-2">
+                <h3>Message</h3>
+                <textarea name="message" id="" cols="30" rows="10" class="border border-gray-300 w-full text-gray-400">Message</textarea>
+            </div>
+            <div class="w-full flex justify-end">
+                <button class=" bg-green-500 text-white rounded-lg p-4">Let's Talk</button>
+            </div>
+        </form>        
+    </div>
+
+</body>
+<script src="https://kit.fontawesome.com/561e8f69a8.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</html>
