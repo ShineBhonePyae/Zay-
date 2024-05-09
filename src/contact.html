@@ -72,26 +72,26 @@
     <!-- User Form -->
     <div class="w-full py-20 flex justify-center">
         <form action="" class="w-2/3">
-            <div class="grid-cols-2 w-full flex">
-                <div class="sm:col-span-2 md:col-span-1 w-1/2 pr-2">
+            <div class="grid grid-cols-2 w-full flex-row">
+                <div class="sm:col-span-1 col-span-2  md:pr-2">
                     <h3>Name</h3>                     
                     <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Name">
                 </div>
-                <div class="sm:col-span-2 md:col-span-1 w-1/2 pl-2">
+                <div class="sm:col-span-1 col-span-2  md:pl-2">
                     <h3>Email</h3>
                     <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Email">
                 </div>                
-            </div>
-            <div class="py-2">
-                <h3>Subject</h3>
-                <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Subject">
-            </div>
-            <div class="py-2">
-                <h3>Message</h3>
-                <textarea name="message" id="" cols="30" rows="10" class="border border-gray-300 w-full text-gray-400">Message</textarea>
-            </div>
-            <div class="w-full flex justify-end">
-                <button class=" bg-green-500 text-white rounded-lg p-4">Let's Talk</button>
+                <div class="py-2 col-span-2">
+                    <h3>Subject</h3>
+                    <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Subject">
+                </div>
+                <div class="py-2 col-span-2">
+                    <h3>Message</h3>
+                    <textarea name="message" id="" cols="30" rows="10" class="border border-gray-300 w-full text-gray-400">Message</textarea>
+                </div>
+                <div class="w-full flex justify-end col-span-2">
+                    <button class=" bg-green-500 text-white rounded-lg p-4">Let's Talk</button>
+                </div>
             </div>
         </form>        
     </div>
