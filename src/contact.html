@@ -38,7 +38,7 @@
                     </svg>
                 </button>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                    <ul class="font-thin flex items-center flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
+                    <ul class="font-thin flex items-start flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white ">
                         <li>
                             <a href="#" class="block py-2 px-3" aria-current="page">Home</a>
                         </li>
@@ -50,7 +50,7 @@
                         </li>
                         <li>
                             <a href="contact.html" class="block py-2 px-3 ">Contact</a>
-                        </li>        
+                        </li>  
                     </ul>
                 </div>
                 <div class="hidden md:block lg:flex lg:text-2xl gap-4 ms-auto">
@@ -61,42 +61,111 @@
             </div>
         </nav>
     </header>
-    <!-- Contact Us -->
-    <div class= "w-full font-thin text-wrap flex justify-center bg-neutral-200">
-        <div class="w-full px-2 md:px-0 md:w-3/5 flex-row text-center py-16 ">
-            <h2 class="font-light text-xl md:text-5xl">Contact Us</h2>
-            <p class="py-3">Proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet.</p>
-        </div>
-    </div>
-
-    <!-- User Form -->
-    <div class="w-full py-20 flex justify-center">
-        <form action="" class="w-2/3">
-            <div class="grid grid-cols-2 w-full flex-row">
-                <div class="sm:col-span-1 col-span-2  md:pr-2">
-                    <h3>Name</h3>                     
-                    <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Name">
-                </div>
-                <div class="sm:col-span-1 col-span-2  md:pl-2">
-                    <h3>Email</h3>
-                    <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Email">
-                </div>                
-                <div class="py-2 col-span-2">
-                    <h3>Subject</h3>
-                    <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Subject">
-                </div>
-                <div class="py-2 col-span-2">
-                    <h3>Message</h3>
-                    <textarea name="message" id="" cols="30" rows="10" class="border border-gray-300 w-full text-gray-400">Message</textarea>
-                </div>
-                <div class="w-full flex justify-end col-span-2">
-                    <button class=" bg-green-500 text-white rounded-lg p-4">Let's Talk</button>
-                </div>
+    <main>
+        <!-- Contact Us -->
+        <div class= "w-full font-thin text-wrap flex justify-center bg-neutral-200">
+            <div class="w-full px-2 md:px-0 md:w-3/5 flex-row text-center py-16 ">
+                <h2 class="font-light text-xl md:text-5xl">Contact Us</h2>
+                <p class="py-3">Proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet.</p>
             </div>
-        </form>        
-    </div>
+        </div>
+
+        <!-- map -->
+        <div id="map" class="w-full h-96"></div>
+
+
+        <!-- User Form -->
+        <div class="w-full py-20 flex justify-center">
+            <form action="" class="w-2/3">
+                <div class="grid grid-cols-2 w-full flex-row">
+                    <div class="sm:col-span-1 col-span-2  md:pr-2">
+                        <h3>Name</h3>                     
+                        <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Name">
+                    </div>
+                    <div class="sm:col-span-1 col-span-2  md:pl-2">
+                        <h3>Email</h3>
+                        <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Email">
+                    </div>                
+                    <div class="py-2 col-span-2">
+                        <h3>Subject</h3>
+                        <input type="text" class="border border-gray-300 h-10 w-full" placeholder="   Subject">
+                    </div>
+                    <div class="py-2 col-span-2">
+                        <h3>Message</h3>
+                        <textarea name="message" id="" cols="30" rows="10" class="border border-gray-300 w-full text-gray-400">Message</textarea>
+                    </div>
+                    <div class="w-full flex justify-end col-span-2">
+                        <button class=" bg-green-500 text-white rounded-lg p-4">Let's Talk</button>
+                    </div>
+                </div>
+            </form>        
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 w-screen">
+        <div class= "text-white font-thin grid grid-cols-1 md:grid-cols-3 md:justify-center md:justify-items-center p-5">
+            <ul class="col-span-1 grid gap-1 py-5">
+                <li class="text-3xl font-light text-green-600">Zay Shop
+                    <div class="w-full h-px bg-green-700 my-5"></div>
+                </li>
+                <li><a href="">123 Consectetur at ligula 10660</a></li>
+                <li><a href="">010-020-0340</a></li>
+                <li><a href=""> mail@domain.com</a></li>
+            </ul>
+            <ul class="col-span-1 grid gap-1 py-5">
+                <li class="text-2xl">Products
+                    <div class="w-full h-px bg-green-700 my-5"></div>
+                </li>
+                <li><a href="">Luxury</a></li>
+                <li><a href="">Sport Wear</a></li>
+                <li><a href="">Men's Shoes</a></li>
+                <li><a href="">Women's Shoes</a></li>
+                <li><a href="">Popular Dress</a></li>
+                <li><a href="">Gym Accessories</a></li>
+                <li><a href="">Sport Shoes</a></li>
+            </ul>
+            <ul class="col-span-1 grid gap-1 py-5">
+                <li class="text-2xl">Further Info
+                    <div class="w-full h-px bg-green-700 my-5"></div>
+                </li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop Locations</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="col-span-1 md:col-span-3 w-full py-12  grid grid-cols-1 md:grid-cols-2">
+                <div class="col-span-1 flex gap-2 text-2xl justify-start md:justify-center py-3 md:py-0">
+                    <a href=""><i class="fa-brands fa-facebook hover:bg-blue-600 rounded-full"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram hover:bg-red-500 rounded-full"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter hover:bg-blue-500 rounded-full"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin hover:bg-blue-700 rounded-full"></i></a>
+                </div>
+                <div class="col-span-1 flex justify-start md:justify-center">
+                    <input class="h-8 w-32" type="text" name="email" placeholder="   Email Address">
+                    <button class="w-20 h-8 bg-green-700 text-white">Subscribe</button>
+                </div>
+                    
+            </div>
+        </div>
+    </footer>
+
+   <script>
+    function initMap() {
+        // Specify the coordinates where you want the map to be centered
+        var mapCenter = { lat: 19.7633, lng: 96.0785 }; // New York City coordinates
+
+        // Create a new map object
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: mapCenter, // Set the center of the map
+            zoom: 12 // Set the zoom level
+        });
+    }
+</script>
+
 
 </body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYIP-Eb1oZzfAFFTbXRNx3MmfbY5-icAc&callback=initMap" defer></script>
 <script src="https://kit.fontawesome.com/561e8f69a8.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </html>
